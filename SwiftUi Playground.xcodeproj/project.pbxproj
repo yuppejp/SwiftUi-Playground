@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56403E0428AC7555005B08A6 /* VibrationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56403E0328AC7555005B08A6 /* VibrationSample.swift */; };
 		5645205728321BE100FC078A /* SwiftUi_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645205628321BE100FC078A /* SwiftUi_PlaygroundApp.swift */; };
 		5645205928321BE100FC078A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645205828321BE100FC078A /* ContentView.swift */; };
 		5645205B28321BE300FC078A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5645205A28321BE300FC078A /* Assets.xcassets */; };
 		5645205E28321BE300FC078A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5645205D28321BE300FC078A /* Preview Assets.xcassets */; };
+		5645206728321EBA00FC078A /* BalloonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645206628321EBA00FC078A /* BalloonSample.swift */; };
+		5645206928327DEF00FC078A /* PathSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645206828327DEF00FC078A /* PathSample.swift */; };
+		56A0E7F0285E9EAB0020711D /* FontSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0E7EF285E9EAB0020711D /* FontSample.swift */; };
+		56C1A0C02861D7D4004F5544 /* TransitionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A0BF2861D7D4004F5544 /* TransitionSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56403E0328AC7555005B08A6 /* VibrationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationSample.swift; sourceTree = "<group>"; };
 		5645205328321BE100FC078A /* SwiftUi Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5645205628321BE100FC078A /* SwiftUi_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_PlaygroundApp.swift; sourceTree = "<group>"; };
 		5645205828321BE100FC078A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5645205A28321BE300FC078A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5645205D28321BE300FC078A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5645206628321EBA00FC078A /* BalloonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonSample.swift; sourceTree = "<group>"; };
+		5645206828327DEF00FC078A /* PathSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSample.swift; sourceTree = "<group>"; };
+		56A0E7EF285E9EAB0020711D /* FontSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSample.swift; sourceTree = "<group>"; };
+		56C1A0BF2861D7D4004F5544 /* TransitionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,15 @@
 		5645205528321BE100FC078A /* SwiftUi Playground */ = {
 			isa = PBXGroup;
 			children = (
-				5645205628321BE100FC078A /* SwiftUi_PlaygroundApp.swift */,
-				5645205828321BE100FC078A /* ContentView.swift */,
 				5645205A28321BE300FC078A /* Assets.xcassets */,
 				5645205C28321BE300FC078A /* Preview Content */,
+				5645205628321BE100FC078A /* SwiftUi_PlaygroundApp.swift */,
+				5645205828321BE100FC078A /* ContentView.swift */,
+				5645206628321EBA00FC078A /* BalloonSample.swift */,
+				5645206828327DEF00FC078A /* PathSample.swift */,
+				56A0E7EF285E9EAB0020711D /* FontSample.swift */,
+				56C1A0BF2861D7D4004F5544 /* TransitionSample.swift */,
+				56403E0328AC7555005B08A6 /* VibrationSample.swift */,
 			);
 			path = "SwiftUi Playground";
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A0E7F0285E9EAB0020711D /* FontSample.swift in Sources */,
 				5645205928321BE100FC078A /* ContentView.swift in Sources */,
 				5645205728321BE100FC078A /* SwiftUi_PlaygroundApp.swift in Sources */,
+				5645206928327DEF00FC078A /* PathSample.swift in Sources */,
+				5645206728321EBA00FC078A /* BalloonSample.swift in Sources */,
+				56403E0428AC7555005B08A6 /* VibrationSample.swift in Sources */,
+				56C1A0C02861D7D4004F5544 /* TransitionSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

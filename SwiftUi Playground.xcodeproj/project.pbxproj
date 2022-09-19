@@ -16,6 +16,8 @@
 		5645206928327DEF00FC078A /* PathSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645206828327DEF00FC078A /* PathSample.swift */; };
 		56A0E7F0285E9EAB0020711D /* FontSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0E7EF285E9EAB0020711D /* FontSample.swift */; };
 		56C1A0C02861D7D4004F5544 /* TransitionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A0BF2861D7D4004F5544 /* TransitionSample.swift */; };
+		56F4854A28D8331500431CD7 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F4854928D8331500431CD7 /* LineChartView.swift */; };
+		56F4854C28D833DA00431CD7 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F4854B28D833DA00431CD7 /* BarChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		5645206828327DEF00FC078A /* PathSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSample.swift; sourceTree = "<group>"; };
 		56A0E7EF285E9EAB0020711D /* FontSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSample.swift; sourceTree = "<group>"; };
 		56C1A0BF2861D7D4004F5544 /* TransitionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSample.swift; sourceTree = "<group>"; };
+		56F4854928D8331500431CD7 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		56F4854B28D833DA00431CD7 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				56A0E7EF285E9EAB0020711D /* FontSample.swift */,
 				56C1A0BF2861D7D4004F5544 /* TransitionSample.swift */,
 				56403E0328AC7555005B08A6 /* VibrationSample.swift */,
+				56F4854928D8331500431CD7 /* LineChartView.swift */,
+				56F4854B28D833DA00431CD7 /* BarChartView.swift */,
 			);
 			path = "SwiftUi Playground";
 			sourceTree = "<group>";
@@ -154,8 +160,10 @@
 			files = (
 				56A0E7F0285E9EAB0020711D /* FontSample.swift in Sources */,
 				5645205928321BE100FC078A /* ContentView.swift in Sources */,
+				56F4854A28D8331500431CD7 /* LineChartView.swift in Sources */,
 				5645205728321BE100FC078A /* SwiftUi_PlaygroundApp.swift in Sources */,
 				5645206928327DEF00FC078A /* PathSample.swift in Sources */,
+				56F4854C28D833DA00431CD7 /* BarChartView.swift in Sources */,
 				5645206728321EBA00FC078A /* BalloonSample.swift in Sources */,
 				56403E0428AC7555005B08A6 /* VibrationSample.swift in Sources */,
 				56C1A0C02861D7D4004F5544 /* TransitionSample.swift in Sources */,
@@ -287,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUi Playground/Preview Content\"";
-				DEVELOPMENT_TEAM = E7SWP532NF;
+				DEVELOPMENT_TEAM = 358F964YVR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUi Playground/Preview Content\"";
-				DEVELOPMENT_TEAM = E7SWP532NF;
+				DEVELOPMENT_TEAM = 358F964YVR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
